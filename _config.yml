@@ -224,11 +224,11 @@ collections:
   research:
     output: true
  #   permalink: /:collection/:path/
-  portfolio:
-    output: false
+  #  portfolio:
+ #     output: false
  #   permalink: /:collection/:path/
-  talks:
-    output: false
+ #   talks:
+ #     output: false
  #   permalink: /:collection/:path/
 
 
