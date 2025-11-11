@@ -45,7 +45,7 @@
 
 /* Reduce text size on homepage */
 .page__content p {
-  font-size: 0.6rem;  /* default is around 1rem */
+  font-size: 0.8rem;  /* default is around 1rem */
   line-height: 1.5;   /* better spacing */
 }
 
@@ -53,3 +53,8 @@
 /* body.page--about .page__content p {
   font-size: 0.6rem;
 } */
+
+.greedy-nav {
+  justify-content: flex-start; /* ensures left alignment by default */
+  margin-left: 200px; /* adjust this number until “Home” starts right of profile pic */
+}
