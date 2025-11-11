@@ -50,9 +50,9 @@
 }
 
 /* Optional: only target the About/Home page */
-/* body.page--about .page__content p {
-  font-size: 0.6rem;
-} */
+  body.page--about .page__content p {
+  font-size: 0.8rem;
+}  
 
 /*.greedy-nav {
   justify-content: flex-start; /* ensures left alignment by default */
