@@ -84,3 +84,16 @@ body:not(.page--about) .page__content p {
 .sitemap ul li {
   margin-right: 20px; /* space between links */
 }
+
+
+
+
+/* Make profile picture perfectly round */
+.author__avatar img {
+  border-radius: 50%;   /* makes it circular */
+  width: 150px;         /* adjust size if needed */
+  height: 150px;        /* make height equal to width for perfect circle */
+  object-fit: cover;    /* crops image nicely if not square */
+  border: none !important; /* remove any frame/border */
+  box-shadow: none !important; /* remove any shadow/frame */
+}
