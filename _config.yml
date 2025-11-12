@@ -23,7 +23,7 @@ repository               : "iparikoglou/iparikoglou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "files/profile_pic.png"
+  avatar           : "profile_pic.png"
   name             : "Iordanis Parikoglou"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc researcher at Agricultural Economics and Policy Group, ETH"
