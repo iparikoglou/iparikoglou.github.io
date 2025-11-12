@@ -43,11 +43,11 @@
 ;
 
 
-/* Front page (homepage/about) */
+/* Front page (homepage/about)
 body.page--about .page__content p {
   font-size: 0.9rem;  /* smaller text on homepage */
-  line-height: 1.5;   /* spacing for readability */
-}
+/*   line-height: 1.5;   /* spacing for readability */
+/* }  */
 
 /* Optional: only target the About/Home page 
   body.page--about .page__content p {
@@ -56,10 +56,10 @@ body.page--about .page__content p {
 
 
 /* All other pages except homepage */
-body:not(.page--about) .page__content p {
+/* body:not(.page--about) .page__content p {
   font-size: 0.8rem; /* slightly larger text on all other pages */
-  line-height: 1.5;
-}
+/*   line-height: 1.5;
+/* } */
 
  .greedy-nav {
   justify-content: flex-start; /* ensures left alignment by default */
