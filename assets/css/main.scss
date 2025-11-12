@@ -93,13 +93,4 @@ body.page--about .sitemap {
 }
 
 
-/* Reduce size of numbered lists on About page */
-body.page--about ol {
-  font-size: 0.3rem; /* adjust as needed */
-  margin-left: 2em;  /* keeps numbers indented */
-}
-
- body.page--about ol li::marker {
-  font-size: 0.7rem; /* specifically target the numbers */
-  font-weight: normal; /* optional, if numbers appear bold */
- }  
+  
