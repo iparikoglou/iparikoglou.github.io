@@ -93,4 +93,9 @@ body.page--about .sitemap {
 }
 
 
-  
+  /* Make Research and Teaching text smaller like homepage */
+body.page--research .page__content p,
+body.page--teaching .page__content p {
+  font-size: 0.8rem;   /* match homepage */
+  line-height: 1.5;
+}
