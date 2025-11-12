@@ -65,3 +65,8 @@ body:not(.page--about) .page__content p {
   justify-content: flex-start; /* ensures left alignment by default */
   margin-left: 400px; /* adjust this number until “Home” starts right of profile pic */
  } 
+
+/* Hide top-right theme toggle */
+.theme-toggle, .theme-switcher {
+  display: none !important;
+}
