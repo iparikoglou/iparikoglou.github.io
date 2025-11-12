@@ -19,7 +19,7 @@ I am a postdoctoral researcher at the [*Agricultural Economics and Policy Group*
 
 My current research and teaching focus on two main areas:
 
-1. *Environmental economics*: This area examines the costs of greenhouse gas and ammonia abatement as well as biodiversity loss reduction in agriculture, highlighting the role of financial institutions and labor and land markets in fostering environmentally sustainable yet economically viable farming systems.
+1. *Environmental economics*: This area examines the costs of greenhouse gas and ammonia abatement as well as biodiversity loss reduction in agriculture, and how to foster environmentally sustainable yet economically viable farming systems.
 
 2. *Economics of resilience*: This area investigates the short- and long-run effects of weather variability and climate change adaptation on farm profitability, and the role of institutions in fostering recovery after natural disasters.
 
