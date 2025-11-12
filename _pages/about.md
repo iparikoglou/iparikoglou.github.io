@@ -25,7 +25,7 @@ My current research and teaching focus on two main areas:
 
   - *Economics of resilience*: Here, I study the short- and long-run effects of weather variability and climate change adaptation on farm profitability, as well as the role of institutions in supporting recovery after natural disasters.
 
-Previously, I was a postdoctoral researcher in the Department of Economics at the University of Southampton, UK.
+<!-- Previously, I was a postdoctoral researcher in the Department of Economics at the University of Southampton, UK. -->
 
 **I am on the 2025–2026 academic job market and welcome interview invitations.**
 
