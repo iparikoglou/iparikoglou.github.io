@@ -99,7 +99,7 @@ body.page--about ol {
   margin-left: 2em;  /* keeps numbers indented */
 }
 
-/* body.page--about ol li::marker {
+ body.page--about ol li::marker {
   font-size: 0.9rem; /* specifically target the numbers */
- /* font-weight: normal; /* optional, if numbers appear bold */
-/*} */
+  font-weight: normal; /* optional, if numbers appear bold */
+ }  
