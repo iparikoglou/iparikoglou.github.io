@@ -18,4 +18,4 @@ Earth & Environment, Nature Food, Scientific Reports, Food Security
 ---
 
 ### Other
-- Organized of the [Food System Geography policy & economics seminar series](https://frieseth.wixsite.com/friesethz) at ETH
+- Organizer of the [Food System Geography policy & economics seminar series](https://frieseth.wixsite.com/friesethz) at ETH
