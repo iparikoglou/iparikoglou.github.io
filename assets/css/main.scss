@@ -45,7 +45,7 @@
 
 /* Front page (homepage/about) */
 body.page--about .page__content p {
-  font-size: 0.8rem;  /* smaller text on homepage */
+  font-size: 0.9rem;  /* smaller text on homepage */
   line-height: 1.5;   /* spacing for readability */
 }
 
@@ -96,6 +96,6 @@ body.page--about .sitemap {
   /* Make Research and Teaching text smaller like homepage */
 body.page--research .page__content p,
 body.page--teaching .page__content p {
-  font-size: 0.8rem;   /* match homepage */
+  font-size: 0.7rem;   /* match homepage */
   line-height: 1.5;
 }
