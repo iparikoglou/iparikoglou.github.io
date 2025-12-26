@@ -16,16 +16,16 @@ author_profile: true
 ---
 
 ## Work in Progress
-### Drafts (to be submitted soon)
+### Under Review
+- **Parikoglou, I.** Wimmer, S., Finger, R. Trade-offs and synergies  between productivity, ammonia and greenhouse gas emissions intensity
 
-- **Parikoglou, I.** Wimmer, S., Finger, R. Productivity, emissions intensity and pollution swapping in dairy farming (draft)
+### Drafts (to be submitted soon)
 - **Parikoglou, I.**, Huber, R., Finger, R. Labor requirements for biodiversity conservation (draft)
 - **Parikoglou, I.**, Sulser, I., Finger, R. Calculating the shadow price of biodiversity loss in dairy farming (draft)
 
 ### Ongoing Projects
-- **Parikoglou, I.** Dynamic productivity growth, environmental intensity and non-linear weather effects on European agriculture  
-- **Parikoglou, I.** Does political ideology influence pesticide use? A country level analysis  
-- **Parikoglou, I.** Monetary policy and earthquakes: evidence from Chile  
+- **Parikoglou, I.** Weather shocks, adaptation and productivity in European agriculture.  
+- **Parikoglou, I.** Food inflation and energy shocks in EU
 
 ---
 
