@@ -20,12 +20,10 @@ author_profile: true
 - **Parikoglou, I.** Wimmer, S., Finger, R. Trade-offs and synergies  between productivity, ammonia and greenhouse gas emissions intensity
 
 ### Drafts (to be submitted soon)
-- **Parikoglou, I.**, Huber, R., Finger, R. Labor requirements for biodiversity conservation (draft)
-- **Parikoglou, I.**, Sulser, I., Finger, R. Calculating the shadow price of biodiversity loss in dairy farming (draft)
+- **Parikoglou, I.**, Huber, R., Finger, R. Production adjustments for biodiversity conservation in dairy farming (draft)
 
 ### Ongoing Projects
 - **Parikoglou, I.** Weather shocks, adaptation and productivity in European agriculture.  
-- **Parikoglou, I.** Food inflation and energy shocks in EU
 
 ---
 
