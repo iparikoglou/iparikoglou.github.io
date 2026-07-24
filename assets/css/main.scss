@@ -147,6 +147,13 @@ strong, b, th, dt,
   font-size: 1.15rem;
   margin-bottom: 0.75rem;
   font-weight: 700 !important;
+  color: var(--global-link-color); /* periwinkle accent, as on lissona */
+}
+/* kill the theme's paragraph margins inside the lists (they created large
+   gaps between degree and institution lines) */
+.about-list p {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .about-list {
   list-style: none;
