@@ -5,6 +5,8 @@ layout: single
 author_profile: false
 ---
 
+<h1 class="about-name">Iordanis Parikoglou</h1>
+
 ### Membership
 
 - European Association of Agricultural Economists
