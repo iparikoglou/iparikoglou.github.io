@@ -221,3 +221,15 @@ strong, b, th, dt,
   margin: 0 auto;
   float: none;
 }
+
+/* Name at top-left on non-home pages (lissona-style), in the accent colour.
+   Absolutely positioned inside .greedy-nav so the centered menu and the
+   responsive nav script are unaffected. */
+.greedy-nav a.masthead__site-name {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  color: var(--global-link-color) !important;
+}
