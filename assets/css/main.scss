@@ -62,8 +62,8 @@ body.page--about .page__content p {
 /* } */
 
  .greedy-nav {
-  justify-content: flex-start; /* ensures left alignment by default */
-  margin-left: 0; /* align "About" with the left sidebar / profile picture */
+  justify-content: center; /* menu centered */
+  margin-left: 0;
  }
 
 /* Hide top-right theme toggle */
@@ -183,7 +183,7 @@ strong, b, th, dt,
 
 /* Large accent-coloured name at top of About (lissona-style) */
 .about-name {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.15;
   color: var(--global-link-color);
   margin: 0 0 1.5rem 0;
@@ -205,4 +205,13 @@ strong, b, th, dt,
 /* Highlight the section the viewer is currently in */
 .greedy-nav a.nav-current {
   color: var(--global-link-color) !important;
+}
+
+/* All content headings in the periwinkle accent (Publications, Work in
+   Progress, Past teaching, Membership, Peer review service, Other, ...) */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: var(--global-link-color);
 }
