@@ -132,3 +132,42 @@ strong, b, th, dt,
 .greedy-nav a {
   font-weight: 400 !important;
 }
+
+/* Two-column Education / Past Employment block on the About page */
+.about-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 600px) {
+  .about-columns { grid-template-columns: 1fr; }
+}
+.about-col-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
+}
+.about-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6em;
+  margin-bottom: 0.9em;
+}
+.about-list li i {
+  margin-top: 0.3em;
+  color: var(--global-text-color-light);
+}
+.about-item-main {
+  margin: 0;
+  font-size: 1rem !important;
+}
+.about-item-sub {
+  margin: 0;
+  font-size: 0.85rem !important;
+  color: var(--global-text-color-light);
+}
