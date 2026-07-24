@@ -234,8 +234,9 @@ strong, b, th, dt,
   color: var(--global-link-color) !important;
 }
 
-/* Journal names in the publication list: bold, unlinked (deliberate
+/* Journal names in the publication list: bold italic, unlinked (deliberate
    exception to the global no-bold reset) */
 .journal-name {
   font-weight: 700 !important;
+  font-style: italic;
 }

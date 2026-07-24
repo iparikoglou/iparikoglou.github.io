@@ -2,7 +2,7 @@
 title: " "
 permalink: /misc/
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 ### Membership
