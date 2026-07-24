@@ -11,6 +11,8 @@ redirect_from:
 
 Welcome to my personal website!
 
+I am joining the Agricultural and Food Economics Group at the Department of Economics, SLU (Swedish University of Agricultural Sciences), Sweden, as an Assistant Professor (Universitetslektor) on the 1st of October.
+
 My research and teaching focus on examining the economic decisions of farms and their outcomes under environmental constraints and climate risk. In particular, I focus on two main areas:
 
 (1) How climate change affects farmers in a systemic manner, how they adapt to these changes, and how these adaptations shape economic and environmental performance.
