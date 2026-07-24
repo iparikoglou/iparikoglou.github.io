@@ -22,7 +22,7 @@ author_profile: true
 ### Drafts (to be submitted soon)
 - **Parikoglou, I.**, Huber, R., Finger, R. Production adjustments for biodiversity conservation in dairy farming (draft)
 
-### Ongoing Projects
+### Ongoing Work
 - **Parikoglou, I.** Weather shocks, adaptation and productivity in European agriculture.  
 
 ---
