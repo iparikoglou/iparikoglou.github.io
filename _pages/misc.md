@@ -12,7 +12,7 @@ author_profile: true
 ---
 
 ### Peer review service
-- European Review of Agricultural Economics, Agribusines, PLOS One, QOpen, Journal of Agricultural Economics, Studies in Microeconomics, Journal of Geographical Systems, Nature Communications
+- European Review of Agricultural Economics, Agribusiness, PLOS One, QOpen, Journal of Agricultural Economics, Nature Communications
 Earth & Environment, Nature Food, Scientific Reports, Food Security, Agricultural Systems
   
 ---
