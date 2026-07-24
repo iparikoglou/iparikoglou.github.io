@@ -93,12 +93,7 @@ body.page--about .sitemap {
 }
 
 
-  /* Make Research and Teaching text smaller like homepage */
-body.page--research .page__content p,
-body.page--teaching .page__content p {
-  font-size: 0.7rem;   /* match homepage */
-  line-height: 1.5;
-}
+/* (per-page size tweaks removed — uniform typography block below) */
 
 /* Hide the page footer band (former copyright block) */
 .page__footer {
@@ -110,4 +105,30 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
+}
+
+/* ===== Uniform typography across all sections, matching lissona =====
+   16px base on every screen width (theme default scales to 18px on
+   desktop), same body size/line-height on every page, no bold anywhere.
+   Font Awesome icons deliberately excluded from the weight reset. */
+html {
+  font-size: 16px !important;
+}
+
+.page__content p,
+.page__content li,
+.page__content dl,
+.page__content td {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6,
+strong, b, th, dt,
+.page__title,
+.author__name,
+.archive__item-title,
+.masthead__menu-item--lg,
+.greedy-nav a {
+  font-weight: 400 !important;
 }
