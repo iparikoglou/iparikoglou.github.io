@@ -215,5 +215,10 @@ strong, b, th, dt,
 .page__content h3,
 .page__content h4 {
   color: var(--global-link-color);
-  text-align: center;
+}
+
+/* Center the menu items (About / Research / Teaching / Miscellaneous) */
+.greedy-nav .visible-links {
+  justify-content: center;
+  width: 100%;
 }
