@@ -183,10 +183,11 @@ strong, b, th, dt,
 
 /* Large accent-coloured name at top of About (lissona-style) */
 .about-name {
-  font-size: 2rem;
+  font-size: 1.5rem !important;
   line-height: 1.15;
   color: var(--global-link-color);
   margin: 0 0 1.5rem 0;
+  text-align: left; /* keep the name left even though section headings center */
 }
 
 /* Hide the name under the sidebar picture (name now lives in the page) */
@@ -214,4 +215,5 @@ strong, b, th, dt,
 .page__content h3,
 .page__content h4 {
   color: var(--global-link-color);
+  text-align: center;
 }
