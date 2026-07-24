@@ -61,10 +61,6 @@ body.page--about .page__content p {
 /*   line-height: 1.5;
 /* } */
 
- .greedy-nav {
-  justify-content: center; /* menu centered */
-  margin-left: 0;
- }
 
 /* Hide top-right theme toggle */
 .theme-toggle, .theme-switcher {
@@ -217,8 +213,11 @@ strong, b, th, dt,
   color: var(--global-link-color);
 }
 
-/* Center the menu items (About / Research / Teaching / Miscellaneous) */
+/* Center the menu items (About / Research / Teaching / Miscellaneous).
+   The links list is display:table, so it shrink-wraps its content and
+   auto margins center it — justify-content has no effect on it, and a
+   forced width breaks the responsive (greedy-nav) measuring script. */
 .greedy-nav .visible-links {
-  justify-content: center;
-  width: 100%;
+  margin: 0 auto;
+  float: none;
 }
