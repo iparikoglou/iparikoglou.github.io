@@ -34,7 +34,10 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* Dark theme for the site — applied unconditionally (:root) so the site is
+   always dark, regardless of the visitor's browser preference or the theme
+   JS stripping the data-theme attribute */
+:root,
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};

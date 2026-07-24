@@ -99,3 +99,8 @@ body.page--teaching .page__content p {
   font-size: 0.7rem;   /* match homepage */
   line-height: 1.5;
 }
+
+/* Hide the page footer band (former copyright block) */
+.page__footer {
+  display: none !important;
+}
