@@ -146,6 +146,7 @@ strong, b, th, dt,
 .about-col-title {
   font-size: 1.15rem;
   margin-bottom: 0.75rem;
+  font-weight: 700 !important;
 }
 .about-list {
   list-style: none;
@@ -155,12 +156,14 @@ strong, b, th, dt,
 .about-list li {
   display: flex;
   align-items: flex-start;
-  gap: 0.6em;
-  margin-bottom: 0.9em;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-.about-list li i {
-  margin-top: 0.3em;
-  color: var(--global-text-color-light);
+.about-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
 }
 .about-item-main {
   margin: 0;
@@ -168,6 +171,5 @@ strong, b, th, dt,
 }
 .about-item-sub {
   margin: 0;
-  font-size: 0.85rem !important;
-  color: var(--global-text-color-light);
+  font-size: 0.875rem !important;
 }
