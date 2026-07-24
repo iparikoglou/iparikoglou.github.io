@@ -104,3 +104,10 @@ body.page--teaching .page__content p {
 .page__footer {
   display: none !important;
 }
+
+/* Thin out light-on-dark text rendering (matches lissona); body stays weight 400 */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
