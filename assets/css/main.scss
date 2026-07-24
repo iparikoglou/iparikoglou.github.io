@@ -180,3 +180,29 @@ strong, b, th, dt,
   margin: 0;
   font-size: 0.875rem !important;
 }
+
+/* Large accent-coloured name at top of About (lissona-style) */
+.about-name {
+  font-size: 3rem;
+  line-height: 1.15;
+  color: var(--global-link-color);
+  margin: 0 0 1.5rem 0;
+}
+
+/* Hide the name under the sidebar picture (name now lives in the page) */
+.author__name {
+  display: none !important;
+}
+
+/* Tighter menu: drop the extra About padding and halve the link gaps */
+.masthead__menu-item--lg {
+  padding-right: 0 !important;
+}
+.greedy-nav a {
+  margin: 0 1.25rem 0 0;
+}
+
+/* Highlight the section the viewer is currently in */
+.greedy-nav a.nav-current {
+  color: var(--global-link-color) !important;
+}

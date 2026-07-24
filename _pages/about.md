@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<h1 class="about-name">Iordanis Parikoglou</h1>
+
 Welcome to my personal website!
 
 My research and teaching focus on examining the economic decisions of farms and their outcomes under environmental constraints, market incentives, and climate risk and uncertainty.
