@@ -268,3 +268,23 @@ body {
     left: 45px;
   }
 }
+
+/* Sidebar links: icon-only, in one row (email envelope + scholar, orcid,
+   github, linkedin). Location/institution rows unaffected. */
+.author__urls li:not(.author__desktop) {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+.author__urls li:not(.author__desktop) a {
+  display: inline-block;
+  font-size: 0;            /* hides the text labels */
+}
+.author__urls li:not(.author__desktop) a i {
+  font-size: 1.3rem;       /* restores the icons */
+}
+.author__urls li:not(.author__desktop) a svg.gs-icon {
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+  margin-right: 0 !important;
+  vertical-align: -0.35rem;
+}
