@@ -297,3 +297,23 @@ body {
 .about-item-sub {
   font-style: italic;
 }
+
+/* Sidebar symbols: all burgundy, email same size as location/institution,
+   equal gaps in the icon row */
+.author__urls li i,
+.author__urls li svg.gs-icon {
+  color: var(--global-link-color);
+}
+.author__urls li.author__email a i {
+  font-size: 1rem !important;  /* match location/institution icon size */
+}
+.author__urls li:not(.author__desktop) a i,
+.author__urls li:not(.author__desktop) a svg.gs-icon {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 1.3rem !important;
+  text-align: center;
+}
+.author__urls li:not(.author__desktop) {
+  margin-right: 0.6em;
+}
