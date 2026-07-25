@@ -329,3 +329,10 @@ body {
 .author__urls li.author__email a i {
   font-size: 0.8rem !important;
 }
+
+/* align the envelope exactly under the location/institution icons:
+   same font-size and same fixed-width box as their fa-fw icons */
+.author__urls li.author__email a i {
+  font-size: 0.8125rem !important;
+  width: 1.25em !important;
+}
