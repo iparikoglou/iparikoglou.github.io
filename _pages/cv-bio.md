@@ -47,10 +47,6 @@ author_profile: false
 
 - European Association of Agricultural Economists
 
-<div class="about-col-title" style="margin-top: 2rem;">Peer Review Service</div>
-
-- European Review of Agricultural Economics, Agribusiness, PLOS One, QOpen, Journal of Agricultural Economics, Nature Communications Earth & Environment, Nature Food, Scientific Reports, Food Security, Agricultural Systems
-
 <div class="about-col-title" style="margin-top: 2rem;">Other</div>
 
 - Organizer of the [Food System Geography policy & economics seminar series](https://frieseth.wixsite.com/friesethz) at ETH (2023&ndash;2025)
