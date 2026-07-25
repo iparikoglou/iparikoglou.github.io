@@ -13,7 +13,7 @@ I am joining the Agricultural and Food Economics Group at the Department of Econ
 
 My research and teaching focus on examining the economic decisions of farms and their outcomes under environmental constraints and climate risk. In particular, I focus on two main areas:
 
-(1) How climate change affects farmers in a systemic manner, how they adapt to these changes, and how these adaptations shape economic and environmental performance.
+(1) How climate change affects farmers in a systemic manner, how they adapt to these changes, and how these adaptations shape their economic and environmental performance.
 
 (2) How the transition to more environmentally friendly agricultural systems influences economic viability and resilience at both the farm and supply-chain levels.
 
