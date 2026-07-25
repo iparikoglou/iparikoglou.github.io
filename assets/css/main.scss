@@ -245,22 +245,14 @@ body {
   font-style: italic;
 }
 
-/* ===== Centered About layout (photo + links on top, centered column) ===== */
-body.page--about .sidebar {
-  float: none !important;
-  width: 100% !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-body.page--about .page {
-  float: none !important;
-  width: 100% !important;
-  max-width: 46rem;
-  margin: 0 auto;
-  padding-right: 0 !important;
-}
-body.page--about .about-name {
-  text-align: center;
+/* ===== About layout: photo + links on the left, text box next to it,
+   nudged toward the center (as on the ortiz-bobea / lissona profiles).
+   Only applies on wide screens; below the breakpoint the theme stacks. ===== */
+@media (min-width: 925px) {
+  body.page--about .page {
+    float: left !important;
+    width: 60% !important;
+    margin-left: 5% !important;
+    padding-right: 0 !important;
+  }
 }
