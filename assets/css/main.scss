@@ -96,12 +96,8 @@ body.page--about .sitemap {
   display: none !important;
 }
 
-/* Thin out light-on-dark text rendering (matches lissona); body stays weight 400 */
-html, body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-}
+/* (font smoothing removed — it was tuned for light-on-dark; on white
+   backgrounds default rendering matches the reference sites) */
 
 /* ===== Uniform typography across all sections, matching lissona =====
    16px base on every screen width (theme default scales to 18px on
@@ -183,7 +179,7 @@ strong, b, th, dt,
 }
 .about-item-sub {
   margin: 0;
-  font-size: 0.875rem !important;
+  font-size: 1rem !important; /* same size as the degree/role text */
 }
 
 /* Large accent-coloured name at top of About (lissona-style) */
@@ -240,6 +236,7 @@ strong, b, th, dt,
 .masthead__name a {
   color: var(--global-link-color) !important;
   font-size: 2rem;
+  font-weight: 700; /* bold name as on ortiz-bobea */
   text-decoration: none;
 }
 /* the fixed header is taller now (name row + menu row): push content down */

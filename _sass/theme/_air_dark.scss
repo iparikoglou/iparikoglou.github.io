@@ -3,15 +3,15 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #7a1f3d;
+$primary-color              : #0f766e;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#000, $primary-color, 50%);
 
-$background                 : #faf8f5;
+$background                 : #ffffff;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #333333;
+$text                       : #1a1a1a;
 $link                       : $primary-color;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
