@@ -271,18 +271,3 @@ body {
     left: 45px;
   }
 }
-
-/* Under the photo: location + institution stay as stacked rows; the
-   contact links (email, scholar, orcid, github, linkedin) collapse to
-   icon-only, side by side in one row */
-.author__urls li:not(.author__desktop) {
-  display: inline-block;
-  margin-right: 0.35em;
-}
-.author__urls li:not(.author__desktop) a {
-  display: inline-block;
-  font-size: 0;          /* hides the text label */
-}
-.author__urls li:not(.author__desktop) a i {
-  font-size: 1.3rem;     /* restores the icon */
-}
