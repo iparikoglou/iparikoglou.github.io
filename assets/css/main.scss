@@ -245,3 +245,13 @@ body {
   font-style: italic;
 }
 
+
+/* Centre the content container under the header: same 1280px cap the
+   masthead uses, so the photo+text group sits inset from both window
+   edges (as on the lissona / ortiz-bobea profiles) instead of hugging
+   the left edge on wide screens. */
+#main {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
