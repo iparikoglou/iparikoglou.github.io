@@ -5,13 +5,13 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme="dark">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme="dark">{% comment %} body gets a page class so page-scoped CSS (e.g. centered About) can target it {% endcomment %}
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.url == "/" %} class="page--about"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

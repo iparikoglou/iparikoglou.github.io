@@ -16,7 +16,7 @@ author_profile: false
   <li>
     <svg class="about-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path stroke-linecap="round" stroke-linejoin="round" d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
     <div>
-      <p class="about-item-main">Postdoctoral Researcher, 2021&ndash;2022 &mdash; <span class="about-item-sub">University of Southampton, United Kingdom</span></p>
+      <p class="about-item-main">Postdoctoral Researcher, 2021&ndash;2022 &mdash; <span class="about-item-sub">Department of Economics, University of Southampton, United Kingdom</span></p>
     </div>
   </li>
 </ul>

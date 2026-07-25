@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<h1 class="about-name">Iordanis Parikoglou</h1>
-
 Welcome to my personal website!
 
 I am joining the Agricultural and Food Economics Group at the Department of Economics, Swedish University of Agricultural Sciences (SLU), as an Assistant Professor on the 1st of October, 2026.
