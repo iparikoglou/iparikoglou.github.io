@@ -245,14 +245,3 @@ body {
   font-style: italic;
 }
 
-/* ===== About layout: photo + links on the left, text box next to it,
-   nudged toward the center (as on the ortiz-bobea / lissona profiles).
-   Only applies on wide screens; below the breakpoint the theme stacks. ===== */
-@media (min-width: 925px) {
-  body.page--about .page {
-    float: left !important;
-    width: 60% !important;
-    margin-left: 5% !important;
-    padding-right: 0 !important;
-  }
-}
