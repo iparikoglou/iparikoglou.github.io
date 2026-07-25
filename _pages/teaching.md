@@ -5,8 +5,6 @@ layout: single
 author_profile: false
 ---
 
-<h1 class="about-name">Iordanis Parikoglou</h1>
-
 ## Past teaching
 ### ETH
 

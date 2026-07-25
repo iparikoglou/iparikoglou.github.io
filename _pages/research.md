@@ -5,8 +5,6 @@ layout: single
 author_profile: false
 ---
 
-<h1 class="about-name">Iordanis Parikoglou</h1>
-
 ## Publications
 
 - **Parikoglou, I.**, Finger, R. (2025) [The effect of heat stress on risk and efficiency in dairy farming](https://doi.org/10.1093/erae/jbaf013), <span class="journal-name">European Review of Agricultural Economics</span>, 52(2), 187–215
