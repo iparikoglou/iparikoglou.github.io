@@ -222,19 +222,20 @@ strong, b, th, dt,
   float: none;
 }
 
-/* Name on its own row at the very top, menu row below it */
+/* Name on its own row at the very top (big, centered), menu row below it —
+   as on arielortizbobea.github.io */
 .masthead__name {
   text-align: center;
-  padding: 0.9rem 0 0;
+  padding: 1rem 0 0;
 }
 .masthead__name a {
   color: var(--global-link-color) !important;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 /* the fixed header is taller now (name row + menu row): push content down */
 body {
-  padding-top: 118px !important;
+  padding-top: 132px !important;
 }
 
 /* Journal names in the publication list: bold italic, unlinked (deliberate
