@@ -142,8 +142,17 @@ strong, b, th, dt,
 .about-col-title {
   font-size: 1.15rem;
   margin-bottom: 0.75rem;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   color: var(--global-link-color); /* periwinkle accent, as on lissona */
+}
+
+/* first heading of each page starts at the same height as cv-bio's
+   "Past Employment" (markdown headings otherwise add a top margin) */
+.page__content > h1:first-child,
+.page__content > h2:first-child,
+.page__content > h3:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 /* kill the theme's paragraph margins inside the lists (they created large
    gaps between degree and institution lines) */
