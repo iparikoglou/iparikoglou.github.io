@@ -288,3 +288,12 @@ body {
   margin-right: 0 !important;
   vertical-align: -0.35rem;
 }
+
+/* email envelope on its own row (the 4 service icons stay in one row) */
+.author__urls li.author__email {
+  display: block;
+}
+/* institutions on their own line, italic */
+.about-item-sub {
+  font-style: italic;
+}
