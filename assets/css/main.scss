@@ -91,9 +91,10 @@ body.page--about .sitemap {
 
 /* (per-page size tweaks removed — uniform typography block below) */
 
-/* Hide the page footer band (former copyright block) */
+/* footer visible again: © + CC BY 4.0 line, centered small text */
 .page__footer {
-  display: none !important;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 /* (font smoothing removed — it was tuned for light-on-dark; on white
