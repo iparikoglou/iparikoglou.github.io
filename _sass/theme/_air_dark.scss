@@ -1,23 +1,21 @@
 /* ==========================================================================
-   Dark skin, based on the Minimal Mistakes skin
+   Site skin (this file wins the cascade — it overrides :root unconditionally)
    ========================================================================== */
 
 /* Color codes used for the theme */
-/* brand burgundy is #7a1f3d; on a black background it is lifted to keep
-   titles and menu readable (same hue, higher lightness) */
-$primary-color              : #a8325a;
+$primary-color              : #7a1f3d;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 35%);
 
-$background                 : #000000;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 10%);
-$text                       : #ffffff;
+$background                 : #faf8f5;
+$background-dark            : mix(#000, $background, 6%);
+$border                     : mix(#000, $background, 15%);
+$text                       : #1a1a1a;
 $link                       : $primary-color;
-$link-hover                 : mix(#fff, $link, 30%);
-$link-light                 : mix(#fff, $link, 45%);
-$footer                     : #0d0d0d;
+$link-hover                 : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
+$footer                     : $background-dark;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -36,25 +34,25 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site — applied unconditionally (:root) so the site is
-   always dark, regardless of the visitor's browser preference or the theme
-   JS stripping the data-theme attribute */
+/* Cream palette — applied unconditionally (:root) so the site looks the same
+   regardless of the visitor's browser preference or the theme JS stripping
+   the data-theme attribute */
 :root,
 html[data-theme="dark"] {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
-    --global-border-color               : #333333;
-    --global-dark-border-color          : #333333;
-    --global-code-background-color      : #fafafa;
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border};
+    --global-code-background-color      : #f1ede7;
     --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #bfbfbf;
+    --global-fig-caption-color          : #6b6560;
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-hover};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$link};
     --global-masthead-link-color-hover  : #{$text};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #bfbfbf;
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #6b6560;
+    --global-thead-color                : #{$background-dark};
 }
