@@ -245,14 +245,6 @@
 
   li {
     white-space: nowrap;
-
-    /* desktop sidebar: let long entries (e.g. the employer) wrap, with the
-       second line aligned under the text rather than under the icon */
-    @include breakpoint($large) {
-      white-space: normal;
-      padding-left: 1.75em;
-      text-indent: -1.75em;
-    }
   }
 
   a {
