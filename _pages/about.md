@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my personal website!
 
-I am joining the Agricultural and Food Economics Group at the Department of Economics, Swedish University of Agricultural Sciences (SLU), as an Assistant Professor on the 1st of October, 2026.
+I am an assistant professor (*biträdande universitetslektor*) in the Agricultural and Food Economics Group at the Department of Economics, Swedish University of Agricultural Sciences (SLU).
 
 My research and teaching focus on examining the economic decisions of farms and their outcomes under environmental constraints and climate risk. In particular, I am interested in two main areas:
 
